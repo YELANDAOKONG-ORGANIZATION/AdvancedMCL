@@ -38,11 +38,11 @@ public final class Metadata {
     public static final String FULL_TITLE = FULL_NAME + " v" + VERSION;
 
     public static final String HMCL_UPDATE_URL = System.getProperty("hmcl.update_source.override", "https://hmcl.huangyuhui.net/api/update_link");
-    public static final String CONTACT_URL = "https://docs.hmcl.net/help.html";
-    public static final String HELP_URL = "https://docs.hmcl.net";
-    public static final String CHANGELOG_URL = "https://docs.hmcl.net/changelog/";
+    public static final String CONTACT_URL = "https://github.com/YELANDAOKONG-ORGANIZATION/AdvancedMCL/issues";
+    public static final String HELP_URL = "https://github.com/YELANDAOKONG-ORGANIZATION/AdvancedMCL/issues";
+    public static final String CHANGELOG_URL = "https://github.com/YELANDAOKONG-ORGANIZATION/AdvancedMCL/blob/main/public/changelog.html";
     public static final String PUBLISH_URL = "https://hmcl.huangyuhui.net";
-    public static final String EULA_URL = "https://docs.hmcl.net/eula/hmcl.html";
+    public static final String EULA_URL = "https://github.com/YELANDAOKONG-ORGANIZATION/AdvancedMCL/blob/main/EULA.md";
 
     public static final String BUILD_CHANNEL = JarUtils.getManifestAttribute("Build-Channel", "nightly");
     public static final String GITHUB_SHA = JarUtils.getManifestAttribute("GitHub-SHA", null);
@@ -56,12 +56,12 @@ public final class Metadata {
             if (OperatingSystem.CURRENT_OS.isLinuxOrBSD()) {
                 String xdgData = System.getenv("XDG_DATA_HOME");
                 if (StringUtils.isNotBlank(xdgData)) {
-                    HMCL_DIRECTORY = Paths.get(xdgData, "hmcl").toAbsolutePath();
+                    HMCL_DIRECTORY = Paths.get(xdgData, "admcl").toAbsolutePath();
                 } else {
-                    HMCL_DIRECTORY = Paths.get(System.getProperty("user.home", "."), ".local", "share", "hmcl").toAbsolutePath();
+                    HMCL_DIRECTORY = Paths.get(System.getProperty("user.home", "."), ".local", "share", "admcl").toAbsolutePath();
                 }
             } else {
-                HMCL_DIRECTORY = OperatingSystem.getWorkingDirectory("hmcl");
+                HMCL_DIRECTORY = OperatingSystem.getWorkingDirectory("admcl");
             }
         } else {
             HMCL_DIRECTORY = Paths.get(hmclHome).toAbsolutePath().normalize();
