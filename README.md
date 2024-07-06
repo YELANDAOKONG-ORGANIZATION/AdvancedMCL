@@ -17,7 +17,9 @@
 
 ---
 
-# 以下为HMCL的原README信息
+# 以下为HMCL的原README信息（未经修改）
+
+---
 
 [![Build Status](https://ci.huangyuhui.net/job/HMCL/badge/icon?.svg)](https://ci.huangyuhui.net/job/HMCL)
 ![Downloads](https://img.shields.io/github/downloads/huanghongxun/HMCL/total)
