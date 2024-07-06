@@ -4,9 +4,10 @@
 
 本分支相比原版HMCL的对比：
 
-1. 改名为 Advanced Minecraft! Launcher (AMCL/AdMCL)
+1. 改名为Advanced Minecraft! Launcher (AMCL/AdMCL)以便与HMCL区分
 2. (考虑?) 不再支持跨平台特性，将仅适配 Windows 系统及 x86/x64 架构
-3. 添加更多功能供各位开发者使用
+3. 融合 .NET 生态
+5. 添加更多功能供各位开发者使用
 
 **请勿在HMCL项目发布关于本项目的Issues！**
 **如果遇到问题，请在本项目发起Issues！**
