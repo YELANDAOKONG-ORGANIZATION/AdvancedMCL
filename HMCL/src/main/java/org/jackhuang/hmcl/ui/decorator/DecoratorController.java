@@ -214,7 +214,7 @@ public class DecoratorController {
         if (!image.isPresent()) {
             image = tryLoadImage(Paths.get("background.gif"));
         }
-        return image.orElseGet(() -> newBuiltinImage("/assets/img/background.jpg"));
+        return image.orElseGet(() -> newBuiltinImage("/assets/img/backgrounds/default.png"));
     }
 
     private Optional<Image> randomImageIn(Path imageDir) {

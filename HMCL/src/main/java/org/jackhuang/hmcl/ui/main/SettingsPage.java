@@ -126,7 +126,7 @@ public final class SettingsPage extends SettingsView {
         // We cannot determine which file is JUL using.
         // So we write all the logs to a new file.
         thread(() -> {
-            Path logFile = Paths.get("hmcl-exported-logs-" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH-mm-ss")) + ".log").toAbsolutePath();
+            Path logFile = Paths.get("admcl-exported-logs-" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH-mm-ss")) + ".log").toAbsolutePath();
 
             LOG.info("Exporting logs to " + logFile);
             try (OutputStream output = Files.newOutputStream(logFile)) {

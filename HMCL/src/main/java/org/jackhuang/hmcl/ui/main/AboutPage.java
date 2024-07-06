@@ -35,8 +35,25 @@ public class AboutPage extends StackPane {
         {
             IconedTwoLineListItem launcher = new IconedTwoLineListItem();
             launcher.setImage(FXUtils.newBuiltinImage("/assets/img/icon.png"));
-            launcher.setTitle("Hello Minecraft! Launcher");
+            launcher.setTitle("Advanced Minecraft! Launcher");
             launcher.setSubtitle(Metadata.VERSION);
+            launcher.setExternalLink("https://github.com/YELANDAOKONG-ORGANIZATION/AdvancedMCL/");
+
+            IconedTwoLineListItem author = new IconedTwoLineListItem();
+            author.setImage(FXUtils.newBuiltinImage("/assets/img/yelandaokong.png"));
+            author.setTitle("YELANDAOKONG");
+            author.setSubtitle(i18n("about.fork.author.statement"));
+            author.setExternalLink("https://github.com/YELANDAOKONG/");
+
+            about.getContent().setAll(launcher, author);
+        }
+
+        ComponentList originAbout = new ComponentList();
+        {
+            IconedTwoLineListItem launcher = new IconedTwoLineListItem();
+            launcher.setImage(FXUtils.newBuiltinImage("/assets/img/icon.png"));
+            launcher.setTitle("Hello Minecraft! Launcher");
+            launcher.setSubtitle(i18n("about.fork.source"));
             launcher.setExternalLink("https://hmcl.huangyuhui.net");
 
             IconedTwoLineListItem author = new IconedTwoLineListItem();
@@ -45,7 +62,7 @@ public class AboutPage extends StackPane {
             author.setSubtitle(i18n("about.author.statement"));
             author.setExternalLink("https://space.bilibili.com/1445341");
 
-            about.getContent().setAll(launcher, author);
+            originAbout.getContent().setAll(launcher, author);
         }
 
         ComponentList thanks = new ComponentList();
@@ -199,6 +216,9 @@ public class AboutPage extends StackPane {
         content.getChildren().setAll(
                 ComponentList.createComponentListTitle(i18n("about")),
                 about,
+
+                ComponentList.createComponentListTitle(i18n("about.fork.source")),
+                originAbout,
 
                 ComponentList.createComponentListTitle(i18n("about.thanks_to")),
                 thanks,
