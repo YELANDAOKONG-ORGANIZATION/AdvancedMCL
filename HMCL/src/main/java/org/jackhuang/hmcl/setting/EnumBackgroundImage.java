@@ -19,8 +19,11 @@ package org.jackhuang.hmcl.setting;
 
 public enum EnumBackgroundImage {
     DEFAULT,
+    HMCL_DEFAULT,
     CUSTOM,
     CLASSIC,
     NETWORK,
-    TRANSLUCENT
+    TRANSLUCENT,
+    AdvancedMCL_WATER,
+    AdvancedMCL_MOUNTAIN
 }

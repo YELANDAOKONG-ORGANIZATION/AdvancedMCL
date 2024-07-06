@@ -188,6 +188,15 @@ public class DecoratorController {
                     }
                 }
                 break;
+            case HMCL_DEFAULT:
+                image = newBuiltinImage("/assets/img/background-default.jpg");
+                break;
+            case AdvancedMCL_WATER:
+                image = newBuiltinImage("/assets/img/backgrounds/images/water.png");
+                break;
+            case AdvancedMCL_MOUNTAIN:
+                image = newBuiltinImage("/assets/img/backgrounds/images/mountain.png");
+                break;
             case CLASSIC:
                 image = newBuiltinImage("/assets/img/background-classic.jpg");
                 break;
