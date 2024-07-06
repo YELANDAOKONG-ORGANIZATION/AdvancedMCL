@@ -1,4 +1,20 @@
-# ⛏ Hello Minecraft! Launcher 💎
+# ⛏ Advanced Minecraft! Launcher 💎
+
+这是一个HMCL启动器的分支版本，专为高级用户设计。
+
+本分支相比原版HMCL的对比：
+
+1. 改名为 Advanced Minecraft! Launcher (AMCL/AdMCL)
+2. (考虑?) 不再支持跨平台特性，将仅适配 Windows 系统及 x86/x64 架构
+3. 添加更多功能供各位开发者使用
+
+**请勿在HMCL项目发布关于本项目的Issues！**
+**如果遇到问题，请在本项目发起Issues！**
+
+
+---
+
+# 以下为HMCL的原README信息
 
 [![Build Status](https://ci.huangyuhui.net/job/HMCL/badge/icon?.svg)](https://ci.huangyuhui.net/job/HMCL)
 ![Downloads](https://img.shields.io/github/downloads/huanghongxun/HMCL/total)
