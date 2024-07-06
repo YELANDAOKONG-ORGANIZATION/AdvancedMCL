@@ -2,12 +2,14 @@
 
 这是一个HMCL启动器的分支版本，专为高级用户（各位开发者、工程师朋友们）设计。
 
-本分支相比原版HMCL的对比：
+> 本分支启动器简称为：AMCL/AdMCL/AdvancedMCL
 
-1. 改名为Advanced Minecraft! Launcher (AMCL/AdMCL)以便与HMCL区分
+**本分支相比原版HMCL的对比：**
+
+1. 改名为 **Advanced Minecraft! Launcher (AMCL/AdMCL)** 以便与HMCL区分
 2. (考虑?) 不再支持跨平台特性，仅适配 Windows 系统及 x86/x64 架构
 3. 融合 .NET 生态
-5. 将添加更多功能供各位开发者们使用
+5. 将添加更多功能供各位开发者使用
 
 > 本项目已依据HMCL开源协议及附加条款，进行名称修改并保留原开源许可证。
 
