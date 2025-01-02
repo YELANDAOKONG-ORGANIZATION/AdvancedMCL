@@ -1,5 +1,7 @@
 # ⛏ Advanced Minecraft! Launcher 💎
 
+# ⚠ Deprecated Warning ⚠： 目前本人没有足够时间来开发本项目，本分支可能不再更新！
+
 这是一个HMCL启动器的分支版本，专为高级用户（各位开发者、工程师朋友们）设计。
 
 > 本分支启动器简称为：AMCL/AdMCL/AdvancedMCL
